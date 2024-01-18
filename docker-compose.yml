@@ -1,0 +1,12 @@
+# https://qiita.com/mikankitten/items/87b5f0a5c3c5ea45d1fe
+version: '3.9'
+services:
+  wiremock:
+    container_name: wiremock
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./home:/home/wiremock
