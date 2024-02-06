@@ -1,0 +1,87 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/api/novelinfo?ncode=n0902ip"
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "title": "タイトル",
+                    "author": "作者",
+                    "episode_count": 10,
+                    "release_date": "2023-01-15",
+                    "tag": [
+                        "タグ１",
+                        "タグ２",
+                        "タグ３"
+                    ],
+                    "summary": "あらすじだよ〜",
+                    "category": "大ジャンル",
+                    "sub_category": "ジャンル",
+                    "updated_at": "2023-04-10",
+                    "read_episode": 10,
+                    "chapters": [
+                        {
+                            "chapter_title": "序章",
+                            "sub_titles": [
+                                "１話",
+                                "２話"
+                            ]
+                        },
+                        {
+                            "chapter_title": "第一章",
+                            "sub_titles": [
+                                "３話",
+                                "４話"
+                            ]
+                        }
+                    ]
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/api/novelinfo?ncode=n5957in"
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "title": "タイトル",
+                    "author": "作者",
+                    "episode_count": 10,
+                    "release_date": "2023-01-15",
+                    "tag": [
+                        "タグ１",
+                        "タグ２",
+                        "タグ３"
+                    ],
+                    "summary": "あらすじだよ〜",
+                    "category": "大ジャンル",
+                    "sub_category": "ジャンル",
+                    "updated_at": "2023-04-10",
+                    "read_episode": 10,
+                    "chapters": [
+                        {
+                            "chapter_title": "",
+                            "sub_titles": [
+                                "１話",
+                                "２話",
+                                "３話",
+                                "４話"
+                            ]
+                        }
+                    ]
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        }
+    ]
+}
