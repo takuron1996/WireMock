@@ -21,7 +21,7 @@
                     "category": "大ジャンル",
                     "sub_category": "ジャンル",
                     "updated_at": "2023-04-10",
-                    "read_episode": 10,
+                    "read_episode": 3,
                     "chapters": [
                         {
                             "chapter_title": "序章",
@@ -65,7 +65,7 @@
                     "category": "大ジャンル",
                     "sub_category": "ジャンル",
                     "updated_at": "2023-04-10",
-                    "read_episode": 10,
+                    "read_episode": 2,
                     "chapters": [
                         {
                             "chapter_title": "",
