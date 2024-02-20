@@ -1,0 +1,92 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "POST",
+                "url": "/api/follow",
+                "bodyPatterns": [
+                    {
+                        "equalToJson": {
+                            "ncode": "n0902ip"
+                        }
+                    }
+                ]
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "is_success": true
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "POST",
+                "url": "/api/follow",
+                "bodyPatterns": [
+                    {
+                        "equalToJson": {
+                            "ncode": "n5957in"
+                        }
+                    }
+                ]
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "is_success": false
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "DELETE",
+                "url": "/api/follow",
+                "bodyPatterns": [
+                    {
+                        "equalToJson": {
+                            "ncode": "n0902ip"
+                        }
+                    }
+                ]
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "is_success": true
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "DELETE",
+                "url": "/api/follow",
+                "bodyPatterns": [
+                    {
+                        "equalToJson": {
+                            "ncode": "n5957in"
+                        }
+                    }
+                ]
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "is_success": false
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        }
+    ]
+}
