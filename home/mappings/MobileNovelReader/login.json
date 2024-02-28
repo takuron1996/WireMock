@@ -1,0 +1,27 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "POST",
+                "url": "/api/login",
+                "bodyPatterns": [
+                    {
+                        "equalToJson": {
+                            "id": "id",
+                            "password": "password"
+                        }
+                    }
+                ]
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "token": "xxxxxxxxxxxx"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        }
+    ]
+}
