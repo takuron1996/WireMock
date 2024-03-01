@@ -16,7 +16,32 @@
             "response": {
                 "status": 200,
                 "jsonBody": {
-                    "token": "xxxxxxxxxxxx"
+                    "access_token": "xxxxxxxxxxxx",
+                    "refresh_token": "yyyyyyyyyyyy"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "POST",
+                "url": "/api/login",
+                "bodyPatterns": [
+                    {
+                        "equalToJson": {
+                            "id": "id",
+                            "password": "pass"
+                        }
+                    }
+                ]
+            },
+            "response": {
+                "status": 401,
+                "jsonBody": {
+                    "error": "invalid_token",
+                    "error_description": "アクセストークンの有効期限切れです。"
                 },
                 "headers": {
                     "Content-Type": "application/json"

@@ -4,6 +4,11 @@
             "request": {
                 "method": "POST",
                 "url": "/api/follow",
+                "headers": {
+                    "Authorization": {
+                        "equalTo": "Bearer xxxxxxxxxxxx"
+                    }
+                },
                 "bodyPatterns": [
                     {
                         "equalToJson": {
@@ -26,6 +31,11 @@
             "request": {
                 "method": "POST",
                 "url": "/api/follow",
+                "headers": {
+                    "Authorization": {
+                        "equalTo": "Bearer xxxxxxxxxxxx"
+                    }
+                },
                 "bodyPatterns": [
                     {
                         "equalToJson": {
@@ -48,6 +58,11 @@
             "request": {
                 "method": "DELETE",
                 "url": "/api/follow",
+                "headers": {
+                    "Authorization": {
+                        "equalTo": "Bearer xxxxxxxxxxxx"
+                    }
+                },
                 "bodyPatterns": [
                     {
                         "equalToJson": {
@@ -70,6 +85,11 @@
             "request": {
                 "method": "DELETE",
                 "url": "/api/follow",
+                "headers": {
+                    "Authorization": {
+                        "equalTo": "Bearer xxxxxxxxxxxx"
+                    }
+                },
                 "bodyPatterns": [
                     {
                         "equalToJson": {

@@ -3,7 +3,12 @@
         {
             "request": {
                 "method": "GET",
-                "url": "/api/maintext?ncode=n0902ip&episode=1"
+                "url": "/api/maintext?ncode=n0902ip&episode=1",
+                "headers": {
+                    "Authorization": {
+                        "equalTo": "Bearer xxxxxxxxxxxx"
+                    }
+                }
             },
             "response": {
                 "status": 200,
@@ -324,7 +329,12 @@
         {
             "request": {
                 "method": "GET",
-                "url": "/api/maintext?ncode=n0902ip&episode=2"
+                "url": "/api/maintext?ncode=n0902ip&episode=2",
+                "headers": {
+                    "Authorization": {
+                        "equalTo": "Bearer xxxxxxxxxxxx"
+                    }
+                }
             },
             "response": {
                 "status": 200,
@@ -657,7 +667,12 @@
         {
             "request": {
                 "method": "GET",
-                "url": "/api/maintext?ncode=n0902ip&episode=3"
+                "url": "/api/maintext?ncode=n0902ip&episode=3",
+                "headers": {
+                    "Authorization": {
+                        "equalTo": "Bearer xxxxxxxxxxxx"
+                    }
+                }
             },
             "response": {
                 "status": 200,
