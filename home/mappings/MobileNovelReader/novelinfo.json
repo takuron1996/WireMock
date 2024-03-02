@@ -6,6 +6,27 @@
                 "url": "/api/novelinfo?ncode=n0902ip",
                 "headers": {
                     "Authorization": {
+                        "equalTo": "Bearer aaaaaaaaaaaa"
+                    }
+                }
+            },
+            "response": {
+                "status": 401,
+                "jsonBody": {
+                    "error": "invalid_token",
+                    "error_description": "アクセストークンの有効期限切れです。"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/api/novelinfo?ncode=n0902ip",
+                "headers": {
+                    "Authorization": {
                         "equalTo": "Bearer xxxxxxxxxxxx"
                     }
                 }
@@ -63,6 +84,27 @@
                 "headers": {
                     "Authorization": {
                         "equalTo": "Bearer xxxxxxxxxxxx"
+                    }
+                }
+            },
+            "response": {
+                "status": 401,
+                "jsonBody": {
+                    "error": "invalid_token",
+                    "error_description": "アクセストークンの有効期限切れです。"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/api/novelinfo?ncode=n5957in",
+                "headers": {
+                    "Authorization": {
+                        "equalTo": "Bearer aaaaaaaaaaaa"
                     }
                 }
             },
