@@ -3,7 +3,7 @@
         {
             "request": {
                 "method": "GET",
-                "url": "/api/novelinfo?ncode=n0902ip",
+                "url": "/api/novelinfo?ncode=n9636x",
                 "headers": {
                     "Authorization": {
                         "equalTo": "Bearer aaaaaaaaaaaa"
@@ -24,7 +24,7 @@
         {
             "request": {
                 "method": "GET",
-                "url": "/api/novelinfo?ncode=n0902ip",
+                "url": "/api/novelinfo?ncode=n9636x",
                 "headers": {
                     "Authorization": {
                         "equalTo": "Bearer xxxxxxxxxxxx"
